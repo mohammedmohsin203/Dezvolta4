@@ -30,9 +30,7 @@ const Map = () => {
         end: "bottom bottom",
         pin: ".right",
         animation: animation,
-        scrub: true,
-        markers: true,
-      });
+        scrub: true,      });
   });
 
   const data = [
