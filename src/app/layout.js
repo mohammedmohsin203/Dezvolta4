@@ -1,7 +1,13 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
+import { Archivo } from "next/font/google";
+import localFont from "next/font/local"
 
-const inter = Inter({ subsets: ["latin"] });
+const archivo = Archivo({ subsets: ["latin"] });
+
+const surt = localFont({
+  src: '../../public/gallerymodern_webfont1.woff',
+  variable: '--font-surt-bold',
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={surt.className}>{children}</body>
     </html>
   );
 }

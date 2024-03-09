@@ -1,0 +1,17 @@
+.panel{
+    position: sticky;
+    text-align: center;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+}
+.panel1{
+    position:relative;
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+}
