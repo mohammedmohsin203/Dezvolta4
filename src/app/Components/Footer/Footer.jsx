@@ -276,8 +276,8 @@ const Footer = () => {
 
       <footer class="bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
+          <div class="md:flex md:justify-between content-between ">
+            <div class="mb-6 md:mb-0 ">
               <Image src={logo} width={200} height={100} />
               <div className="mt-6 w-[17.5rem]">
                 <span className="text-5xl text-[#fcad15] uppercase font-extralight">
@@ -312,7 +312,7 @@ const Footer = () => {
                 </button>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ml-4">
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ml-4 ">
               {/* <div>
                 <h2 class="mb-4 sm:text-sm text-xs font-semibold text-gray-900 uppercase dark:text-white">
                   Get In touch
